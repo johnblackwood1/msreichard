@@ -7,76 +7,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
     <style>
-      :root {
-        --bg1: #0b132b;
-        --bg2: #1f3b6e;
-        --bg3: #3b5a8f;
-        --panel-bg: rgba(20, 25, 40, 0.72);
-        --panel-border: rgba(255, 255, 255, 0.2);
-        --text: #fdfdfd;
-        --accent: #9ad0ff;
-        --accent-2: #f7d56b;
-      }
-
-      html, body {
-        margin: 0;
-        min-height: 100%;
-        background: linear-gradient(180deg, var(--bg1) 0%, var(--bg2) 38%, var(--bg3) 100%);
-        font-family: "Comic Relief", "Comic Sans MS", "Comic Sans", sans-serif;
-        color: var(--text);
-      }
-
       body {
-        position: relative;
-        overflow-x: hidden;
+        margin: 0;
+        padding: 24px 18px 40px;
+        background: linear-gradient(180deg, #0b132b 0%, #1f3b6e 40%, #3b5a8f 100%);
+        color: #fdfdfd;
+        font-family: "Comic Relief", "Comic Sans MS", "Comic Sans", sans-serif;
       }
 
-      #particles-js {
-        position: fixed;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 0;
-        pointer-events: none;
-        opacity: 0.95;
-      }
-
-      .content {
-        position: relative;
-        z-index: 1;
+      .wrap {
         max-width: 1100px;
         margin: 0 auto;
-        padding: 32px 20px 60px;
-      }
-
-      .panel {
-        background: var(--panel-bg);
-        border: 1px solid var(--panel-border);
-        border-radius: 18px;
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-        backdrop-filter: blur(4px);
-        padding: 18px 20px 22px;
-        margin: 16px 0;
       }
 
       h1 {
-        color: var(--accent-2);
-        text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.25);
-        margin: 20px 0 12px;
+        color: #f7d56b;
+        text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+        margin: 18px 0 12px;
       }
 
-      h1.section-title {
-        text-align: center;
-        font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+      hr {
+        border: 0;
+        border-top: 3px solid rgba(255,255,255,0.4);
+        margin: 18px 0;
       }
 
       p {
         font-size: 1.05rem;
         line-height: 1.6;
+        margin: 12px 0;
       }
 
       a {
-        color: var(--accent);
+        color: #9ad0ff;
         text-decoration: none;
         font-weight: 700;
       }
@@ -93,8 +56,8 @@
       }
 
       .link-row a {
-        background: rgba(255, 255, 255, 0.06);
-        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.12);
         border-radius: 999px;
         padding: 7px 12px;
       }
@@ -104,125 +67,43 @@
         max-width: 100%;
         margin: 18px auto;
         border-radius: 18px;
-        border: 3px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
-      }
-
-      hr {
-        border: 0;
-        border-top: 3px solid rgba(255, 255, 255, 0.4);
-        margin: 18px 0;
+        border: 3px solid rgba(255,255,255,0.2);
+        box-shadow: 0 10px 18px rgba(0,0,0,0.2);
       }
     </style>
   </head>
   <body>
-    <div id="particles-js"></div>
+    <div class="wrap">
+      <h1>Ms Reichards Class</h1>
+      <hr>
+      <p>Welcome to ms reichards class!!!</p>
+      <p>This website was made by john and garrison (if garrison accepted the collaborator request)</p>
 
-    <div class="content">
-      <div class="panel">
-        <h1 class="section-title">Ms Reichards Class</h1>
+      <img src="cutedog.jpeg" alt="Picture Of a Cute Dog">
+
+      <h1>-Links-</h1>
+      <div class="link-row">
+        <a href="https://clever.com/in/van-buren-school-district-42/student/portal">Clever!</a>
+        <a href="https://sites.google.com/vbsd.us/oliverspringslibrary/find-a-book">Ms Brown's Homepage!</a>
+        <a href="https://kiddle.co">Kiddle!</a>
+        <a href="https://classroom.google.com/c/ODcyMDMzNDUxNzQ4">Googly Classroom</a>
+        <a href="https://docs.google.com">Googly Docs</a>
+        <a href="https://docs.google.com/presentation/d/1yzaa_VYHmrOdbxKOpUhPlO834vehg69Qmw2tt7xJx7Q/edit?slide=id.g26808d355cf_0_0#slide=id.g26808d355cf_0_0">Daily Do (end and start of day)</a>
+        <a href="https://roomrecess.com">RoomRecess</a>
+        <a href="https://kids.getepic.com/">Epic!</a>
+        <a href="https://drive.google.com/drive/home">Googly Drive</a>
+        <a href="https://www.safesearchkids.com/">SafeSearchKids</a>
       </div>
 
-      <div class="panel">
-        <p>Welcome to ms reichards class!!! </p>
-        <p>This website was made by john and garrison (if garrison accepted the collaborator request)</p>
-      </div>
+      <h1>-What do i do here??-</h1>
+      <p>On this page theres a area called Links. In links you click on something like "Googly Classroom" and it will take you there.</p>
 
-      <div class="panel">
-        <img src="cutedog.jpeg" alt="Picture Of a Cute Dog">
-      </div>
+      <h1>-John only! (only he has access to github and these other things)-</h1>
+      <a href="https://github.com">Github</a>
 
-      <div class="panel">
-        <h1 class="section-title">-Links-</h1>
-        <div class="link-row">
-          <a href="https://clever.com/in/van-buren-school-district-42/student/portal">Clever!</a>
-          <a href="https://sites.google.com/vbsd.us/oliverspringslibrary/find-a-book">Ms Brown's Homepage!</a>
-          <a href="https://kiddle.co">Kiddle!</a>
-          <a href="https://classroom.google.com/c/ODcyMDMzNDUxNzQ4">Googly Classroom</a>
-          <a href="https://docs.google.com">Googly Docs</a>
-          <a href="https://docs.google.com/presentation/d/1yzaa_VYHmrOdbxKOpUhPlO834vehg69Qmw2tt7xJx7Q/edit?slide=id.g26808d355cf_0_0#slide=id.g26808d355cf_0_0">Daily Do (end and start of day)</a>
-          <a href="https://roomrecess.com">RoomRecess</a>
-          <a href="https://kids.getepic.com/">Epic!</a>
-          <a href="https://drive.google.com/drive/home">Googly Drive</a>
-          <a href="https://www.safesearchkids.com/">SafeSearchKids</a>
-          <a href="https://clever.com/oauth/authorize?channel=clever-portal&client_id=f113a7ebbd008c30f0ee&confirmed=true&district_id=5409bdcfe6653c140d000908&redirect_uri=https%3A%2F%2Fsamlidp.clever.com%2F">Clever Portal</a>
-          <a href="https://clever.com/oauth/authorize?channel=clever-portal&client_id=807db597ae7e9928217a&confirmed=true&district_id=5409bdcfe6653c140d000908&redirect_uri=https%3A%2F%2Fconnect.explorelearning.com%2F">Explore Learning</a>
-          <a href="https://clever.com/oauth/authorize?channel=clever-portal&client_id=c7a52c5c9228e8623a71&confirmed=true&district_id=5409bdcfe6653c140d000908&redirect_uri=https%3A%2F%2Flogin.i-ready.com%2F">i-Ready</a>
-        </div>
-      </div>
-
-      <div class="panel">
-        <h1 class="section-title">-What do i do here??-</h1>
-        <p>On this page theres a area called Links. In links you click on something like "Googly Classroom" and it will take you there.</p>
-      </div>
-
-      <div class="panel">
-        <h1 class="section-title">-John only! (only he has access to github and these other things)-</h1>
-        <a href="https://github.com">Github</a>
-      </div>
-
-      <div class="panel">
-        <h1 class="section-title">-Free time-</h1>
-        <a href="https://clever.com/oauth/authorize?channel=clever-portal&client_id=573310f940e2ff8a44e8&confirmed=true&district_id=5409bdcfe6653c140d000908&redirect_uri=https%3A%2F%2Fwww.nitrotype.com%2F">Nitro Type</a>
-        <p>this is just random text dont mind me</p>
-      </div>
+      <h1>-Free time-</h1>
+      <a href="https://clever.com/oauth/authorize?channel=clever-portal&client_id=573310f940e2ff8a44e8&confirmed=true&district_id=5409bdcfe6653c140d000908&redirect_uri=https%3A%2F%2Fwww.nitrotype.com%2F">Nitro Type</a>
+      <p>this is just random text dont mind me</p>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>
-      particlesJS('particles-js', {
-        particles: {
-          number: {
-            value: 80,
-            density: { enable: true, value_area: 800 }
-          },
-          color: { value: '#ffffff' },
-          shape: {
-            type: 'circle',
-            stroke: { width: 0, color: '#000000' },
-            polygon: { nb_sides: 5 }
-          },
-          opacity: {
-            value: 0.6,
-            random: true,
-            anim: { enable: true, speed: 1, opacity_min: 0.2, sync: false }
-          },
-          size: {
-            value: 3,
-            random: true,
-            anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
-          },
-          line_linked: {
-            enable: true,
-            distance: 150,
-            color: '#9ad0ff',
-            opacity: 0.35,
-            width: 1
-          },
-          move: {
-            enable: true,
-            speed: 2,
-            direction: 'none',
-            random: false,
-            straight: false,
-            out_mode: 'out',
-            bounce: false
-          }
-        },
-        interactivity: {
-          detect_on: 'canvas',
-          events: {
-            onhover: { enable: true, mode: 'grab' },
-            onclick: { enable: true, mode: 'push' },
-            resize: true
-          },
-          modes: {
-            grab: { distance: 160, line_linked: { opacity: 1 } },
-            push: { particles_nb: 4 }
-          }
-        },
-        retina_detect: true
-      });
-    </script>
   </body>
 </html>
